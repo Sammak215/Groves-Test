@@ -4,7 +4,7 @@ export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <>
-      <div className=" container mx-auto flex justify-between items-center p-6">
+      <div className="container mx-auto flex justify-between items-center p-[24px] sm:py-6 sm:px-2">
         <div>
           <a href="/">
             <img src="/logo.png" width={220} />
@@ -25,7 +25,7 @@ export default function Header() {
               <img src="/snap.png" width={20} />
             </a>
           </div>
-          <div className="mr-[23px]">
+          <div className="mr-[20px]">
             <button
               className={`w-[120px] h-12 text-white rounded-[20px] bg-cover bg-center bg-[url('/button.png')]`}
             >
@@ -37,7 +37,7 @@ export default function Header() {
               <img src="/arrow.png" width={20} />
             </a>
           </div>
-          <div className="mr-[20px]">
+          <div className="mr-[10px]">
             <a href="/">
               <img src="/flag.png" width={33} />
             </a>
@@ -54,7 +54,7 @@ export default function Header() {
         </div>
       </div>
       {showMenu && (
-        <div className="sm:hidden absolute h-full w-full bg-gradient-to-r from-[#283606] to-[#0F1500]">
+        <div className="sm:hidden z-10 absolute h-full w-full bg-gradient-to-r from-[#283606] to-[#0F1500]">
           <div className=" p-[24px]  flex items-center justify-between ">
             <a href="/">
               <img src="/logo.png" width={220} />
@@ -70,32 +70,32 @@ export default function Header() {
           <nav className="w-full mt-[20px]">
             <ul className=" flex-col justify-center  text-white tracking-widest">
               <a href="#">
-                <li className="bg-transparent border-t py-4 pl-[32px]  border-white">
+                <li className="bg-transparent border-t border-opacity-50 py-4 pl-[32px]  border-white">
                   DINE WITH US
                 </li>
               </a>
               <a href="#">
-                <li className="bg-transparent border-t py-4 pl-[32px] border-white">
+                <li className="bg-transparent border-t border-opacity-50 py-4 pl-[32px] border-white">
                   PLAN YOUR VISIT
                 </li>
               </a>
               <a href="#">
-                <li className="bg-transparent border-t py-4 pl-[32px] border-white">
+                <li className="bg-transparent border-t border-opacity-50 py-4 pl-[32px] border-white">
                   EVENTS
                 </li>
               </a>
               <a href="#">
-                <li className="bg-transparent border-t py-4 pl-[32px] border-white">
+                <li className="bg-transparent border-t border-opacity-50 py-4 pl-[32px] border-white">
                   VIEW GROVES MAP
                 </li>
               </a>
               <a href="#">
-                <li className="bg-transparent border-t py-4 pl-[32px] border-white">
+                <li className="bg-transparent border-t border-opacity-50 py-4 pl-[32px] border-white">
                   OUR STORY
                 </li>
               </a>
               <a href="#">
-                <li className="bg-transparent border-t py-4 pl-[32px] border-b border-white">
+                <li className="bg-transparent border-t border-opacity-50 py-4 pl-[32px] border-b border-white">
                   CONTACT US
                 </li>
               </a>

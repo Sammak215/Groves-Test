@@ -6,9 +6,9 @@ const DM = Playfair_Display({ weight: "400", subsets: ["latin"] });
 export default function Hero() {
   return (
     <>
-      <div className="hidden relative">
+      <div className=" relative">
         <div className="bg-[#000000] h-[83vh] opacity-50 max-w-[900px] absolute inset-0"></div>
-        <div className="sm:max-w-[650px] mt-[180px]  text-white  flex flex-col items-start pl-[30px] sm:pl-[210px] sm:transform translate(-50%, -50%)">
+        <div className="sm:max-w-[650px] mt-[180px]  text-white  flex flex-col items-start pl-[30px] sm:pl-[210px] transform translate(-50%, -50%)">
           <div className="tracking-widest">KHAWAJA YANNI</div>
           <div
             className={`${DM.className} my-[18px] text-[60px] sm:text-[73px]`}
@@ -23,9 +23,9 @@ export default function Hero() {
           </div>
           <div className="mt-[45px]">
             <button
-              className={`w-[260px] h-12 text-white rounded-[15px] bg-cover bg-center bg-[url('/button.png')]`}
+              className={`w-[290px] h-12 text-white pl-6 pr-4 rounded-[15px] bg-cover bg-center bg-[url('/button.png')]`}
             >
-              <div className="flex justify-between items-center px-4">
+              <div className="flex justify-between items-center ">
                 <div> Book Reservation Now</div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

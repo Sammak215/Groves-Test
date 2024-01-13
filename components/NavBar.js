@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="w-full bg-transparent border-t border-b border-white p-4 hidden sm:block">
+    <nav className="w-full bg-transparent border-opacity-50 border-t border-b border-white p-4 hidden sm:block">
       <ul className="flex justify-center space-x-40 text-white tracking-widest">
         <li className="">DINE WITH US</li>
         <li className="">PLAN YOUR VISIT</li>
